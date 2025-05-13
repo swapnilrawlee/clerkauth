@@ -1,7 +1,7 @@
 // app/page.tsx or app/home/page.tsx
 'use client';
 
-import { SignInButton, SignUpButton, UserButton, useUser } from "@clerk/nextjs";
+import {  SignUpButton, UserButton, useUser } from "@clerk/nextjs";
 import { useEffect, useState } from 'react';
 
 export default function Home() {
