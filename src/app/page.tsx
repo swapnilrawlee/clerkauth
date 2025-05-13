@@ -33,11 +33,9 @@ export default function Home() {
             <p className="text-gray-600 mb-6">Please sign in or sign up to continue</p>
             <div className="flex justify-center gap-4">
               <SignUpButton mode="modal">
-                <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">Sign Up</button>
+                <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">Login</button>
               </SignUpButton>
-              <SignInButton mode="modal">
-                <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">Sign In</button>
-              </SignInButton>
+        
             </div>
           </>
         )}
